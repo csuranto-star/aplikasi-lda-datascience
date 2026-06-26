@@ -60,7 +60,7 @@ def clean_and_tokenize(text):
 
 # --- UI HEADER ---
 st.title("📊 Dasbor Analisis Temporal Riset Data Science")
-st.markdown("Aplikasi berbasis Python yang diimplementasikan secara ketat mengikuti alur kerja *Natural Language Processing* (NLP) berbasis Scikit-Learn.")
+st.markdown("Deteksi Evolusi dan Pergeseran Tren Kata Kunci Riset Data Science melalui Analisis Bibliometrik dan Topic Modeling (LDA).")
 st.divider()
 
 # --- SIDEBAR: INPUT DATASET ---
