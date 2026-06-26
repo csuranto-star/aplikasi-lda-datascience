@@ -64,7 +64,7 @@ st.markdown("Deteksi Evolusi dan Pergeseran Tren Kata Kunci Riset Data Science m
 st.divider()
 
 # --- SIDEBAR: INPUT DATASET ---
-st.sidebar.header("📁 [Metode 1] Input Dataset")
+st.sidebar.header("📁Input Dataset")
 uploaded_file = st.sidebar.file_uploader("Unggah Dataset CSV (Harzing's Publish or Perish):", type=["csv"])
 
 if uploaded_file is not None:
@@ -93,7 +93,7 @@ if not {'Title', 'Abstract', 'Year'}.issubset(df.columns):
     st.stop()
 
 # --- SIDEBAR: TEMPORAL SET ---
-st.sidebar.header("⏳ [Metode 3] Temporal Set")
+st.sidebar.header("⏳ Temporal Set")
 df['Year'] = pd.to_numeric(df['Year'], errors='coerce').fillna(2020).astype(int)
 min_year = int(df['Year'].min())
 max_year = int(df['Year'].max())
