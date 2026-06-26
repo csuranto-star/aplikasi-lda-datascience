@@ -1,7 +1,7 @@
 streamlit
 pandas
 numpy
-gensim==4.3.2
+scikit-learn
 networkx
 matplotlib
 plotly
